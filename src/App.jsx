@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import TrustedBy from './Components/TrustedBy'
-
+import Service from './Components/Service'
 
 const App = () => {
 
@@ -12,6 +12,7 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero/>
       <TrustedBy/>
+      <Service/>
     </div>
   )
 }

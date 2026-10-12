@@ -20,7 +20,7 @@ const Navbar = ({theme, setTheme}) => {
         <img src={assets.close_icon} alt="close" className='w-5 absolute right-4 top-4 sm:hidden' onClick={() => setSidebarOpen(false)}/>  {/*It will close the sidebar when clicked. */}
 
         <a onClick={() => setSidebarOpen(false)} href='#Home' className='sm:hover:border-b'>Home</a>
-        <a onClick={() => setSidebarOpen(false)} href='#Services' className='sm:hover:border-b'>Services</a>
+        <a onClick={() => setSidebarOpen(false)} href='#services' className='sm:hover:border-b'>Services</a>
         <a onClick={() => setSidebarOpen(false)} href='#Our-work' className='sm:hover:border-b'>Our-work</a>
         <a onClick={() => setSidebarOpen(false)} href='#Contact-us' className='sm:hover:border-b'>Contact-us</a>
 
