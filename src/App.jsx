@@ -5,6 +5,7 @@ import TrustedBy from './Components/TrustedBy'
 import Service from './Components/Service'
 import OurWork from './Components/OurWork'
 import Teams from './Components/Teams'
+import ContactUs from './Components/ContactUs'
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
       <Service/>
       <OurWork/>
       <Teams/>
+      <ContactUs/>
     </div>
   )
 }
